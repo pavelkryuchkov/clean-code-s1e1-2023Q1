@@ -18,7 +18,8 @@
 }
 
 @media (max-width:768px) {
-  .header { text-align: center;
+  .header {
+    text-align: center;
   }
 }
 .main {
@@ -38,10 +39,12 @@
   margin: 0;
   padding: 0px;
 }
-.li, .heading {
+.li,
+.heading {
   list-style: none;
 }
-.input,.button{
+.input,
+.button {
   outline: none;
 }
 .button {
@@ -115,7 +118,7 @@
   font-size: 18px;
   width: 226px;
 }
-.li >    .input[type="text"] {
+.li > .input[type="text"] {
   width: 226px;
 }
 .delete-btn-image {
